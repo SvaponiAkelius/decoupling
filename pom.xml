@@ -22,6 +22,8 @@
 
         <!-- Test dependencies -->
         <junit.version>4.12</junit.version>
+
+        <main>io.github.svaponi.cleanarch.Main</main>
     </properties>
 
     <dependencies>

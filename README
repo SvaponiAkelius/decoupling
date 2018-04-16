@@ -1,0 +1,13 @@
+# io.github.svaponi.cleanarch:decoupling
+
+Build main:
+
+```bash
+mvn clean package -pl shared -pl main
+```
+
+Add plugin loosely coupled dependency:
+
+```bash
+mvn clean package -pl shared -pl impl
+```
